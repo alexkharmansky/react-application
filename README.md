@@ -10,8 +10,8 @@ Besides standard modules, components and files there are some files that deserve
 
 ### Pages
 
-- Index.js — start page with table of contents. Contains components 'Pagination' and 'Posts' mentioned above. Search bar is placeholder right now and I'm not sure if I make it work anytime soon;
-- Result.js — simple page with two results on it;
+- Index.js — a start page with table of contents. Contains components 'Pagination' and 'Posts' mentioned above. Search bar is placeholder right now and I'm not sure if I make it work anytime soon;
+- Result.js — a simple page with two results on it;
 - About.js — dummy text with some gradients;
 - ContactUs.js — same.
 
