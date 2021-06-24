@@ -16,7 +16,7 @@ Besides standard modules, components and files there are some files that deserve
 - ContactUs.js — same.
 
 ### Extra
-— App.sass — used Sass for this project.
+- App.sass — used Sass for this project.
 
 ## Install and launch
 
