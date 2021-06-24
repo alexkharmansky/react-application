@@ -1,38 +1,142 @@
-.App {
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  color: #1b1b1b;
+}
+
+.menu__navbar {
+  background: -webkit-gradient(linear, left top, right top, from(#ff3b03), color-stop(35%, #ff7900), to(#d9ff00));
+  background: linear-gradient(90deg, #ff3b03 0%, #ff7900 35%, #d9ff00 100%);
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.menu__link {
+  color: #fff !important;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.menu__link:hover {
+  text-decoration: underline !important;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.main {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main__title {
+  text-align: center;
+  margin: 0.5rem 0 2rem 0;
+  font-weight: 600;
+  background: -webkit-linear-gradient(90deg, #ff3b03 0%, #ff7900 35%, #d9ff00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main__pagination {
+  display: block;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main__input {
+  text-align: center;
+  width: 90%;
+  padding: 20px 35px 20px 35px;
+  border-radius: 10px;
+  border: 1px solid #aeaeae71;
+  outline: none;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
-.App-link {
-  color: #61dafb;
+.main__input:before, .main__input:after {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main__input:hover {
+  border: 1px solid #3f3f3f;
 }
+
+.posts__table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1em;
+  text-align: left;
+  display: block;
+  height: 49rem;
+}
+
+.posts__title {
+  font-weight: 600;
+}
+
+.posts__cell {
+  width: 100%;
+}
+
+.posts__item {
+  padding: 15px 20px 10px 20px;
+  border: 1px solid #aeaeae71;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.pagination__btn {
+  color: #1b1b1b !important;
+  width: 50px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.about__block {
+  width: 100%;
+  height: 11rem;
+  background: -webkit-gradient(linear, left top, right top, from(#ff3b03), color-stop(35%, #ff7900), to(#d9ff00));
+  background: linear-gradient(90deg, #ff3b03 0%, #ff7900 35%, #d9ff00 100%);
+  padding: 3rem;
+}
+
+.about__text > span {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5rem;
+}
+
+.about__text {
+  color: #fff;
+  font-size: 3rem;
+  text-align: left;
+  line-height: 4rem;
+}
+
+.about__block2 {
+  width: 100%;
+  height: 11rem;
+  padding: 3rem;
+}
+
+.about__text2 > span {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(90deg, #ff3b03 0%, #ff7900 35%, #d9ff00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about__text2 {
+  color: #000;
+  font-size: 3rem;
+  text-align: left;
+  line-height: 4rem;
+  text-align: right;
+}
+
+.about__btm-text {
+  text-align: left;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=App.css.map */

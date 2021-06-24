@@ -1,0 +1,110 @@
+body
+    font-family: 'Montserrat', sans-serif !important
+    font-weight: 400
+    color: #1b1b1b
+
+//// ——— menu navbar ——— ////
+.menu
+    &__navbar
+        background: linear-gradient(90deg, rgba(255,59,3,1) 0%, rgba(255,121,0,1) 35%, rgba(217,255,0,1) 100%)
+        justify-content: space-between !important
+
+    &__link
+        color: #fff !important
+        font-family: 'Major Mono Display', monospace
+        &:hover
+
+            text-decoration: underline !important
+
+h1
+    font-family: 'Major Mono Display', monospace
+
+//// ——— main ——— ////
+.main
+    text-align: center
+    &__title
+        text-align: center
+        margin: 0.5rem 0 2rem 0
+        font-weight: 600
+        background: -webkit-linear-gradient(90deg, rgba(255,59,3,1) 0%, rgba(255,121,0,1) 35%, rgba(217,255,0,1) 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    &__pagination
+        display: block
+        width: 100%
+    &__input
+        text-align: center
+        width: 90%
+        padding: 20px 35px 20px 35px
+        border-radius: 10px
+        border: 1px solid #aeaeae71
+        outline: none
+        transition: 0.3s all
+        &:before, &:after
+            outline: none
+        &:hover
+            border: 1px solid #3f3f3f
+
+//// ——— posts ——— ////
+.posts
+    &__table
+        width: 100%
+        border-collapse: separate
+        border-spacing: 1em
+        text-align: left
+        display: block
+        height: 49rem
+    &__title
+        font-weight: 600
+    &__cell
+        width: 100%
+    &__item
+        padding: 15px 20px 10px 20px
+        border: 1px solid #aeaeae71
+        border-radius: 15px
+        width: 100%
+
+//// ——— pagination ——— ////
+.pagination
+    &__btn
+        color: #1b1b1b !important
+        width: 50px
+        font-family: 'Major Mono Display', monospace
+
+//// ——— about/contacts ——— ////
+.about
+    &__block
+        width: 100%
+        height: 11rem
+        background: linear-gradient(90deg, rgba(255,59,3,1) 0%, rgba(255,121,0,1) 35%, rgba(217,255,0,1) 100%)
+        padding: 3rem
+    &__text>span
+        font-family: 'Major Mono Display', monospace
+        font-size: 5rem
+    &__text
+        color: #fff
+        font-size: 3rem
+        text-align: left
+        line-height: 4rem
+
+    &__block2
+        width: 100%
+        height: 11rem
+        padding: 3rem
+    &__text2>span
+        font-family: 'Major Mono Display', monospace
+        font-size: 5rem
+        background: -webkit-linear-gradient(90deg, rgba(255,59,3,1) 0%, rgba(255,121,0,1) 35%, rgba(217,255,0,1) 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    &__text2
+        color: #000
+        font-size: 3rem
+        text-align: left
+        line-height: 4rem
+        text-align: right
+
+    &__btm-text
+        text-align: left
+        padding: 2rem
+        margin-top: 1rem
