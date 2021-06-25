@@ -38,4 +38,4 @@ On Windows: `Hold 'Shift' key` -> `Right click on app folder` -> `'Open command 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
 ### Note
-If you open this, React should automaticly redirect you to the browser but it opens: http://localhost:3000/react-application since this project uploaded to GitHub. Just remove 'react-application' from search or simply click 'Home' button.
+After starting, React should automatically redirect you to the browser with this link: http://localhost:3000/react-application since this project uploaded to GitHub. Just remove 'react-application' from search or simply click 'Home' button to get rid of blank page.
