@@ -1,6 +1,6 @@
 # React application
 
-Besides standard modules, components and files there are some files that deserve a mention.
+Besides standard React modules, components and files there are some things that deserve a mention.
 
 ### Components
 
@@ -16,7 +16,9 @@ Besides standard modules, components and files there are some files that deserve
 - ContactUs.js — same.
 
 ### Extra
-- App.sass — used Sass for this project.
+- App.sass — used Sass for this project;
+- Boostrap — library used for design pagination and menu;
+- Axios — library used for making HTTP requests to fetch data from site: https://jsonplaceholder.typicode.com/posts
 
 ## Install and launch
 
