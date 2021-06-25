@@ -18,7 +18,7 @@ Besides standard React modules, components and files there are some things that 
 ### Extra
 - App.sass — used Sass for this project;
 - Boostrap — a library which was used for design pagination and menu;
-- Axios — a library which was used for making HTTP requests to fetch data from site: https://jsonplaceholder.typicode.com/posts
+- Axios — a library which was used for making HTTP requests to fetch data from site: https://jsonplaceholder.typicode.com/posts/.
 
 ## Install and launch
 
